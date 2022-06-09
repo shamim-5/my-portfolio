@@ -3,7 +3,7 @@ import "./PrimaryButton.css";
 
 const PrimaryButton = ({ children }) => {
   return (
-    <div className="container py-4">
+    <div>
       <span>
         <p className="button grad transition">{children}</p>
       </span>
