@@ -46,39 +46,51 @@ const Home = () => {
               </SecondaryButton>
             </div>
             <div className="pb-6">
-              <SecondaryButton>
-                <div className="flex flex-row justify-center items-center uppercase">
-                  <span>Resume</span>{" "}
-                  <span className="ml-1">
-                    <img
-                      className="w-6"
-                      src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_3_kgkzsc.png`}
-                      alt="download-resume"
-                    />
-                  </span>
-                </div>
-              </SecondaryButton>
+              <a
+                href="https://drive.google.com/file/d/1s89YI9UOHmc1c14-2RZWsZNJNUurcGsc/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <SecondaryButton>
+                  <div className="flex flex-row justify-center items-center uppercase">
+                    <span>Resume</span>{" "}
+                    <span className="ml-1">
+                      <img
+                        className="w-6"
+                        src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_3_kgkzsc.png`}
+                        alt="download-resume"
+                      />
+                    </span>
+                  </div>
+                </SecondaryButton>
+              </a>
             </div>
           </div>
         </div>
         <div className=" flex md:flex-col  flex-row justify-between h-1/2 items-end pb-12 md:my-auto  mt-12">
           <div className="cursor-pointer">
-            <img
-              src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654789121/my-portfolio/icon.png/linkedIn_pbljlz.png`}
-              alt="linked-in"
-            />
+            <a href="https://www.linkedin.com/in/shamim5/" target="_blank" rel="noreferrer noopener">
+              <img
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654789121/my-portfolio/icon.png/linkedIn_pbljlz.png`}
+                alt="linked-in"
+              />
+            </a>
           </div>
           <div className="cursor-pointer">
-            <img
-              src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_5_hyflpt.png`}
-              alt="git-hub"
-            />
+            <a href="https://github.com/shamim-5" target="_blank" rel="noreferrer noopener">
+              <img
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_5_hyflpt.png`}
+                alt="git-hub"
+              />
+            </a>
           </div>
           <div className="cursor-pointer">
-            <img
-              src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_1_rcsbhu.png`}
-              alt="gmail"
-            />
+            <a href="mailto:shamim.somadder5@gmail.com" target="_blank" rel="noreferrer noopener">
+              <img
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_1_rcsbhu.png`}
+                alt="gmail"
+              />
+            </a>
           </div>
           <div className="cursor-pointer">
             <img
