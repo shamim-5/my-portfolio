@@ -24,15 +24,14 @@ const Home = () => {
             work with React.js. My ultimate goal is to become an awesome full-stack web developer who can make beautiful
             UIs and also can handle the back-end smoothly.
           </p>
-          <span className="container">
-            {" "}
+          <div className="flex flex-row justify-around items-center">
             <SecondaryButton>
               <div className="flex flex-row justify-center items-center uppercase">
                 <span>More about me</span>{" "}
                 <span className="text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 ml-2"
+                    className="h-5 w-5 ml-1"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -45,40 +44,40 @@ const Home = () => {
                 </span>
               </div>
             </SecondaryButton>
-          </span>
+            <SecondaryButton>
+              <div className="flex flex-row justify-center items-center uppercase">
+                <span>Resume</span>{" "}
+                <span className="ml-1">
+                  <img
+                    className="w-6"
+                    src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_3_kgkzsc.png`}
+                    alt="download-resume"
+                  />
+                </span>
+              </div>
+            </SecondaryButton>
+          </div>
         </div>
-        <div className=" flex flex-col  justify-between h-1/2 items-end">
-          <SecondaryButton>
-            <div className="flex flex-row justify-center items-center">
-              <span>Resume</span>{" "}
-              <span className="ml-1">
-                <img
-                  className=""
-                  src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_3_kgkzsc.png`}
-                  alt="download-resume"
-                />
-              </span>
-            </div>
-          </SecondaryButton>
-          <div>
+        <div className=" flex flex-col  justify-between h-1/3 items-end">
+          <div className="cursor-pointer">
             <img
-              src={` https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_2_ogsr4f.png`}
+              src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654789121/my-portfolio/icon.png/linkedIn_pbljlz.png`}
               alt="linked-in"
             />
           </div>
-          <div>
+          <div className="cursor-pointer">
             <img
               src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_5_hyflpt.png`}
               alt="git-hub"
             />
           </div>
-          <div>
+          <div className="cursor-pointer">
             <img
               src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_1_rcsbhu.png`}
               alt="gmail"
             />
           </div>
-          <div>
+          <div className="cursor-pointer">
             <img
               src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654786160/my-portfolio/icon.png/icon_4_dsb95l.png`}
               alt="phone"
