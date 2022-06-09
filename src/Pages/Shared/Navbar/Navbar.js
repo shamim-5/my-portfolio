@@ -37,9 +37,9 @@ const Navbar = () => {
   return (
     <div className="container">
       <div className="navbar ">
-        <div className="navbar-start">
+        <div className="md:navbar-start navbar-center">
           <div className="dropdown">
-            <label tabindex="0" className="btn btn-ghost lg:hidden">
+            <label tabindex="0" className="lg:hidden ">
               <PrimaryButton>
                 {" "}
                 <svg
@@ -57,7 +57,7 @@ const Navbar = () => {
               {menuItems}
             </ul>
               </div>
-              <h1 className="text-4xl uppercase font-semibold">portfolio</h1>
+              <h1 className="md:text-3xl text-2xl uppercase font-semibold ml-2 mr-2">Shamim's-portfolio</h1>
         </div>
         <div className="navbar-end hidden lg:flex ">
           <ul className="menu menu-horizontal p-0">{menuItems}</ul>
