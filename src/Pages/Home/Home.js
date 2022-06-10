@@ -6,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="container bg-image grid md:grid-cols-3 grid-cols-1  mt-12 gap-4">
-      <div class="card col-span-1">
+      <div className="card col-span-1">
         <figure>
           {" "}
           <img
@@ -37,9 +37,9 @@ const Home = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
                     </svg>
                   </span>
@@ -68,7 +68,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-       <LinkIcon></LinkIcon>
+        <LinkIcon></LinkIcon>
       </div>
     </div>
   );

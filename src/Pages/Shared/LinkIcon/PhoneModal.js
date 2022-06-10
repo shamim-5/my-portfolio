@@ -9,7 +9,10 @@ const PhoneModal = () => {
           <h3 className="text-lg font-bold">For Further Inquery? Please Call !</h3>
           <p className="py-4 text-warning font-bold text-3xl font-mono">+8801950-402657</p>
           <div className="modal-action">
-            <label for="my-modal-6" className="btn bg-primary text-white border-none btn-sm hover:bg-transparent hover:text-primary">
+            <label
+              htmlFor="my-modal-6"
+              className="btn bg-primary text-white border-none btn-sm hover:bg-transparent hover:text-primary"
+            >
               close
             </label>
           </div>

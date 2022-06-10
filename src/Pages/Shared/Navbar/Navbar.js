@@ -17,8 +17,8 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link to="/portfolio" className="p-0 ml-3 mt-4">
-          <PrimaryButton>PORTFOLIO</PrimaryButton>
+        <Link to="/projects" className="p-0 ml-3 mt-4">
+          <PrimaryButton>PROJECTS</PrimaryButton>
         </Link>
       </li>
       <li>
@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="navbar ">
         <div className="md:navbar-start navbar-center">
           <div className="dropdown">
-            <label tabindex="0" className="lg:hidden ">
+            <label tabIndex="0" className="lg:hidden ">
               <PrimaryButton>
                 {" "}
                 <svg
@@ -49,15 +49,15 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                 </svg>
               </PrimaryButton>
             </label>
-            <ul tabindex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box">
+            <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box">
               {menuItems}
             </ul>
-              </div>
-              <h1 className="md:text-3xl text-2xl uppercase font-semibold ml-2 mr-2">Shamim's-portfolio</h1>
+          </div>
+          <h1 className="md:text-3xl text-2xl uppercase font-semibold ml-2 mr-2">Shamim's-portfolio</h1>
         </div>
         <div className="navbar-end hidden lg:flex ">
           <ul className="menu menu-horizontal p-0">{menuItems}</ul>
