@@ -18,8 +18,8 @@ const Projects = () => {
       </div>
       <div className="my-6">
         <Project3 />
-        </div>
-        <ScrollButton />
+      </div>
+      <ScrollButton />
     </div>
   );
 };

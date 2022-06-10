@@ -10,7 +10,7 @@ const Project3 = () => {
             <div className="card-body p-0">
               <img
                 className="h-100"
-                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654858700/my-portfolio/project-jpg/Screenshot_4_1_gpilut.jpg`}
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654877255/my-portfolio/project-jpg/Screenshot_14_r3wteo.jpg`}
                 alt="screen_shot_1"
               />
             </div>
@@ -20,7 +20,7 @@ const Project3 = () => {
           <div className="card shadow-xl rounded-l-none rounded-r-sm">
             <div className="card-body p-0">
               <img
-                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654858700/my-portfolio/project-jpg/Screenshot_4_srs2qm.jpg`}
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654877255/my-portfolio/project-jpg/Screenshot_13_ewzjxn.jpg`}
                 alt="screen_shot_2"
               />
             </div>
@@ -28,7 +28,7 @@ const Project3 = () => {
           <div className="card shadow-xl rounded-l-none rounded-r-sm">
             <div className="card-body p-0">
               <img
-                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654858700/my-portfolio/project-jpg/Screenshot_4_srs2qm.jpg`}
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654877254/my-portfolio/project-jpg/Screenshot_15_mboesh.jpg`}
                 alt="screen_shot_3"
               />
             </div>
@@ -36,23 +36,25 @@ const Project3 = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-2xl font-bold">Website: MS Auto Parts [Full Stack]</h2>
+        <h2 className="text-2xl font-bold">Website: Perfumed Corner</h2>
         <h2 className="text-lg font-bold">
-          Code Link: <a href="a">Client-side</a> || <a href="a">Server-side </a>
+          Code Link:{" "}
+          <a href="https://github.com/shamim-5/perfumed-corner" target="_blank" rel="noreferrer noopener">
+            Client-side
+          </a>{" "}
         </h2>
 
-        <div className="text-accent py-2">
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
+        <div className="text-slate-300 py-2">
+          <p>This website based on simple product selection</p>
+          <p>User can add product into cart</p>
+          <p>User can choose product randomly</p>
+          <p>Reset selected products implemented etc</p>
         </div>
 
-        <h2 className="text-lg font-bold">Technology: React.js, Tailwind CSS, Node.js, MongoDB, Firebase</h2>
+        <h2 className="text-lg font-bold">Technology: React.js, CSS</h2>
 
         <div className="pt-4">
-          <a href="a" target="_blank" rel="noreferrer noopener">
+          <a href="https://lucky-one123.netlify.app/" target="_blank" rel="noreferrer noopener">
             <SecondaryButton>
               <div className="flex flex-row justify-center items-center uppercase">
                 <span>Show Project</span>{" "}

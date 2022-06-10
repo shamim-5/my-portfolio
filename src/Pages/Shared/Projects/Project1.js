@@ -28,7 +28,7 @@ const Project1 = () => {
           <div className="card shadow-xl rounded-l-none rounded-r-sm">
             <div className="card-body p-0">
               <img
-                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654858700/my-portfolio/project-jpg/Screenshot_4_srs2qm.jpg`}
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654877684/my-portfolio/project-jpg/Screenshot_16_oe2xy6.jpg`}
                 alt="screen_shot_3"
               />
             </div>
@@ -38,21 +38,28 @@ const Project1 = () => {
       <div>
         <h2 className="text-2xl font-bold">Website: MS Auto Parts [Full Stack]</h2>
         <h2 className="text-lg font-bold">
-          Code Link: <a href="a">Client-side</a> || <a href="a">Server-side </a>
+          Code Link:{" "}
+          <a href="https://github.com/shamim-5/ms-auto-parts-client-side" target="_blank" rel="noreferrer noopener">
+            Client-side
+          </a>{" "}
+          ||{" "}
+          <a href="https://github.com/shamim-5/ms-auto-parts-server-side" target="_blank" rel="noreferrer noopener">
+            Server-side{" "}
+          </a>
         </h2>
 
-        <div className="text-accent py-2">
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
+        <div className="text-slate-300 py-2">
+          <p>This website based on spare parts manufacturer</p>
+          <p>Email/Password and Google authentication implemented</p>
+          <p>Authenticate with JWT token verification</p>
+          <p>Dashboard and Payment system implemented</p>
+          <p>Dashboard will have user access. all usrer access given only admin</p>
         </div>
 
         <h2 className="text-lg font-bold">Technology: React.js, Tailwind CSS, Node.js, MongoDB, Firebase</h2>
 
         <div className="pt-4">
-          <a href="a" target="_blank" rel="noreferrer noopener">
+          <a href="https://manufacturer-website-c427c.web.app" target="_blank" rel="noreferrer noopener">
             <SecondaryButton>
               <div className="flex flex-row justify-center items-center uppercase">
                 <span>Show Project</span>{" "}

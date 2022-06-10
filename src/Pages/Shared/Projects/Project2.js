@@ -10,7 +10,7 @@ const Project2 = () => {
             <div className="card-body p-0">
               <img
                 className="h-100"
-                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654858700/my-portfolio/project-jpg/Screenshot_4_1_gpilut.jpg`}
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654876195/my-portfolio/project-jpg/Screenshot_9_hjz7d0.jpg`}
                 alt="screen_shot_1"
               />
             </div>
@@ -20,7 +20,7 @@ const Project2 = () => {
           <div className="card shadow-xl rounded-l-none rounded-r-sm">
             <div className="card-body p-0">
               <img
-                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654858700/my-portfolio/project-jpg/Screenshot_4_srs2qm.jpg`}
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654876194/my-portfolio/project-jpg/Screenshot_10_n5faep.jpg`}
                 alt="screen_shot_2"
               />
             </div>
@@ -28,7 +28,7 @@ const Project2 = () => {
           <div className="card shadow-xl rounded-l-none rounded-r-sm">
             <div className="card-body p-0">
               <img
-                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654858700/my-portfolio/project-jpg/Screenshot_4_srs2qm.jpg`}
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654876194/my-portfolio/project-jpg/Screenshot_12_uisd5p.jpg`}
                 alt="screen_shot_3"
               />
             </div>
@@ -36,23 +36,38 @@ const Project2 = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-2xl font-bold">Website: MS Auto Parts [Full Stack]</h2>
+        <h2 className="text-2xl font-bold">The Motorbike Warehouse [Full Stack]</h2>
         <h2 className="text-lg font-bold">
-          Code Link: <a href="a">Client-side</a> || <a href="a">Server-side </a>
+          Code Link:{" "}
+          <a
+            href="https://github.com/shamim-5/the-motorbike-warehouse-client-side"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Client-side
+          </a>{" "}
+          ||{" "}
+          <a
+            href="https://github.com/shamim-5/the-motorbike-warehouse-server-side"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Server-side{" "}
+          </a>
         </h2>
 
-        <div className="text-accent py-2">
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
-          <p>pppppppppppppppppppppppppppppppppppppppppppppp</p>
+        <div className="text-slate-300 py-2">
+          <p>This website based on warehouse management</p>
+          <p>Email/Password and Google authentication implemented</p>
+          <p>Admin can manage stock quantity of products</p>
+          <p>Database connectivity to better manage products etc</p>
+          <p>Use "react router hook" for implement login / registration system</p>
         </div>
 
         <h2 className="text-lg font-bold">Technology: React.js, Tailwind CSS, Node.js, MongoDB, Firebase</h2>
 
         <div className="pt-4">
-          <a href="a" target="_blank" rel="noreferrer noopener">
+          <a href="https://warehouse-management-1a464.web.app/" target="_blank" rel="noreferrer noopener">
             <SecondaryButton>
               <div className="flex flex-row justify-center items-center uppercase">
                 <span>Show Project</span>{" "}
