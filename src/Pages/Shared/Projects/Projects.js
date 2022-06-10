@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollButton from "../ScrollButton/ScrollButton";
 import Project1 from "./Project1";
 import Project2 from "./Project2";
 import Project3 from "./Project3";
@@ -17,7 +18,8 @@ const Projects = () => {
       </div>
       <div className="my-6">
         <Project3 />
-      </div>
+        </div>
+        <ScrollButton />
     </div>
   );
 };

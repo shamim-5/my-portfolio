@@ -4,6 +4,7 @@ import Home from "./Pages/Home/Home";
 import Navbar from "./Pages/Shared/Navbar/Navbar";
 import Projects from "./Pages/Shared/Projects/Projects";
 
+
 function App() {
   return (
     <div className="bg-image text-white h-screen">
