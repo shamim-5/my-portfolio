@@ -1,31 +1,68 @@
 import React from "react";
+import emaijs from "emailjs-com";
 import SecondaryButton from "../Shared/SecondaryButton/SecondaryButton";
 import "./Email.css";
+import { toast } from "react-toastify";
 
 const Email = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emaijs
+      .sendForm("service_6f2p8gk", "template_8qxttxb", e.target, "kA42b-vdWUf79LWQu")
+      .then((res) => {
+        if (res.status === 200) {
+          toast.success("Email Send Success");
+        } else {
+          toast.error("Email Send Failed");
+        }
+      })
+      .catch((error) => console.log(error));
+  }
   return (
     <div className="bg-neutral w-full max-w-xs mx-auto py-6   my-6 px-4 flex flex-col justify-center items-center rounded-md text-primary border">
-      <form className="w-full">
-        <div class="w-full p-1">
+      <form onSubmit={sendEmail} className="w-full">
+        <div className="w-full p-1">
           <span className="bg-transparent font-bold ">NAME</span>
-          <input type="text" placeholder="Your Name" class="input input-bordered bg-transparent w-full" />
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            className="input input-bordered bg-transparent w-full"
+          />
         </div>
-        <div class="w-full p-1">
+        <div className="w-full p-1">
           <span className="bg-transparent font-bold ">EMAIL</span>
-          <input type="Email" placeholder="info@site.com" class="input input-bordered bg-transparent w-full" required />
+          <input
+            type="email"
+            name="user_email"
+            placeholder="info@site.com"
+            className="input input-bordered bg-transparent w-full"
+            required
+          />
         </div>
-        <div class="w-full max-w-xs p-1">
+        <div className="w-full max-w-xs p-1">
           <span className="bg-transparent font-bold ">SUBJECT</span>
-          <input type="text" placeholder="Email Subject" class="input input-bordered bg-transparent w-full" required />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Email Subject"
+            className="input input-bordered bg-transparent w-full"
+            required
+          />
         </div>
-        <div class="w-full max-w-xs p-1">
+        <div className="w-full max-w-xs p-1">
           <span className="bg-transparent font-bold text-left">MESSAGE</span>
-          <textarea class="textarea bg-transparent textarea-bordered w-full" placeholder="Message Details"></textarea>
+          <textarea
+            name="message"
+            className="textarea bg-transparent textarea-bordered w-full"
+            placeholder="Message Details"
+          ></textarea>
         </div>
-        <div class="w-full max-w-xs pt-3 text-center">
+        <div className="w-full max-w-xs pt-3 text-center">
           <SecondaryButton>
             {" "}
-            <input type="submit" value="submit" class="font-bold uppercase font-sans" />
+            <input type="submit" value="submit" className="font-bold uppercase font-sans" />
           </SecondaryButton>
         </div>
       </form>
