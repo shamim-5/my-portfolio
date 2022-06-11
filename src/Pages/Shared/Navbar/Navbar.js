@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PrimaryButton from "../PrimaryButton/PrimaryButton";
-import "./Navbar.css";
 
 const Navbar = () => {
   const menuItems = (
@@ -27,11 +26,7 @@ const Navbar = () => {
           <PrimaryButton>CONTACT</PrimaryButton>
         </Link>
       </li>
-      <li>
-        <Link to="/email" className="p-0 ml-3 mt-4">
-          <PrimaryButton>EMAIL</PrimaryButton>
-        </Link>
-      </li>
+    
     </>
   );
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import emaijs from "emailjs-com";
 import SecondaryButton from "../Shared/SecondaryButton/SecondaryButton";
-import "./Email.css";
 import { toast } from "react-toastify";
 
 const Email = () => {
@@ -21,6 +20,7 @@ const Email = () => {
   }
   return (
     <div className="bg-neutral w-full max-w-xs mx-auto py-6   my-6 px-4 flex flex-col justify-center items-center rounded-md text-primary border">
+      <h2 className="text-3xl mb-2 uppercase font-mono font-bold">Send Me An Email</h2>
       <form onSubmit={sendEmail} className="w-full">
         <div className="w-full p-1">
           <span className="bg-transparent font-bold ">NAME</span>
@@ -62,7 +62,7 @@ const Email = () => {
         <div className="w-full max-w-xs pt-3 text-center">
           <SecondaryButton>
             {" "}
-            <input type="submit" value="submit" className="font-bold uppercase font-sans" />
+            <input type="submit" value="send" className="font-bold uppercase font-mono" />
           </SecondaryButton>
         </div>
       </form>
