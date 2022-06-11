@@ -28,8 +28,8 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link to="/blog" className="p-0 ml-3 mt-4">
-          <PrimaryButton>BLOG</PrimaryButton>
+        <Link to="/email" className="p-0 ml-3 mt-4">
+          <PrimaryButton>EMAIL</PrimaryButton>
         </Link>
       </li>
     </>
