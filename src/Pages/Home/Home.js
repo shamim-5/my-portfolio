@@ -12,11 +12,11 @@ const Home = () => {
   }
   return (
     <div className="container bg-image grid md:grid-cols-3 grid-cols-1  mt-12 gap-4">
-      <div className="card col-span-1">
+      <div className="card col-span-1 rounded-tl-xl rounded-b-none rounded-tr-none">
         <figure>
           {" "}
           <img
-            src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654757076/my-portfolio/profile_pic_upmnv9.jpg`}
+            src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1655025759/my-portfolio/pfp-removebg-preview_zpg7op.jpg`}
             alt="profile-pic"
           />
         </figure>
