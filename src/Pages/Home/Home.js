@@ -16,7 +16,7 @@ const Home = () => {
         <figure>
           {" "}
           <img
-            src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1655025759/my-portfolio/pfp-removebg-preview_zpg7op.jpg`}
+            src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654757076/my-portfolio/profile_pic_upmnv9.jpg`}
             alt="profile-pic"
           />
         </figure>
