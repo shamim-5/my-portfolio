@@ -7,7 +7,7 @@ import Project3 from "./Project3";
 const Projects = () => {
   return (
     <div className="container md:py-12 py-6 mt-2 bg-neutral ">
-      <h2 className="text-4xl font-bold text-white text-center ">
+      <h2 className="text-5xl font-bold text-white text-center ">
         MY <span className="text-warning inline">PROJECTS</span>
       </h2>
       <div className="my-6">

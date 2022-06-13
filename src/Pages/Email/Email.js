@@ -19,8 +19,8 @@ const Email = () => {
       .catch((error) => console.log(error));
   }
   return (
-    <div className="bg-neutral w-full max-w-xs mx-auto py-6   my-6 px-4 flex flex-col justify-center items-center rounded-md text-primary border">
-      <h2 className="text-3xl mb-2 uppercase font-mono font-bold">Send Me An Email</h2>
+    <div className="bg-neutral w-full max-w-xs mx-auto py-4    my-6 px-4 flex flex-col justify-center items-center rounded-md text-primary border">
+      <h2 className="text-3xl mb-4 uppercase font-mono font-bold">Send Me An Email</h2>
       <form onSubmit={sendEmail} className="w-full">
         <div className="w-full p-1">
           <span className="bg-transparent font-bold ">NAME</span>

@@ -28,7 +28,7 @@ const Project1 = () => {
           <div className="card shadow-xl rounded-l-none rounded-r-sm">
             <div className="card-body p-0">
               <img
-                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654877684/my-portfolio/project-jpg/Screenshot_16_oe2xy6.jpg`}
+                src={`https://res.cloudinary.com/dskmjlma4/image/upload/v1654973954/my-portfolio/project-jpg/Screenshot_18_qgiam5.jpg`}
                 alt="screen_shot_3"
               />
             </div>
