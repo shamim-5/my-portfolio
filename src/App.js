@@ -7,6 +7,7 @@ import Email from "./Pages/Email/Email";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Contact from "./Pages/Contact/Contact";
+import About from "./Pages/About/About";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects />} />
         <Route path="email" element={<Email />} />
         <Route path="contact" element={<Contact />} />

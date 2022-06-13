@@ -30,7 +30,6 @@ const Contact = () => {
                 <h3 className="text-[#AEAEAE] font-bold ml-2 ">ADDRESS POINT</h3>
               </div>
               <p>Bhola, Barishal, Bangladesh</p>
-              <p></p>
               <div className="flex items-center justify-start pt-6">
                 <img
                   className="w-9"
@@ -42,7 +41,6 @@ const Contact = () => {
               <a href="mailto:shamim.somadder5@gmail.com">
                 <p className="text-white">shamim.somadder5@gmail.com</p>
               </a>
-              <p></p>
               <div className="flex items-center justify-start pt-6">
                 <img
                   className="w-9"
@@ -51,7 +49,7 @@ const Contact = () => {
                 />
                 <h3 className="text-[#AEAEAE] font-bold ml-2 ">CALL ME</h3>
               </div>
-              <p >+880 1950-402657</p>
+              <p>+880 1950-402657</p>
             </div>
           </div>
         </div>
