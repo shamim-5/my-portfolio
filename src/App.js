@@ -8,10 +8,11 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Contact from "./Pages/Contact/Contact";
 import About from "./Pages/About/About";
+import Blog from "./Pages/Blog/Blog";
 
 function App() {
   return (
-    <div className="bg-image text-white h-screen">
+    <div className="bg-image text-white h-screen overflow-auto">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path="projects" element={<Projects />} />
         <Route path="email" element={<Email />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="blog" element={<Blog />} />
       </Routes>
       <ToastContainer />
     </div>

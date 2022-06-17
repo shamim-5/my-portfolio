@@ -26,6 +26,12 @@ const Navbar = () => {
           <PrimaryButton>CONTACT</PrimaryButton>
         </Link>
       </li>
+      <li>
+        {" "}
+        <Link to="/blog" className="p-0 ml-3 mt-4">
+          <PrimaryButton>BlOG</PrimaryButton>
+        </Link>
+      </li>
     
     </>
   );
@@ -52,7 +58,7 @@ const Navbar = () => {
               {menuItems}
             </ul>
           </div>
-          <h1 className="md:text-3xl text-2xl uppercase font-semibold ml-2 mr-2">Shamim's-portfolio</h1>
+          <h1 className="md:text-4xl text-2xl uppercase font-semibold ml-2 mr-2">Shamim's-portfolio</h1>
         </div>
         <div className="navbar-end hidden lg:flex ">
           <ul className="menu menu-horizontal p-0">{menuItems}</ul>

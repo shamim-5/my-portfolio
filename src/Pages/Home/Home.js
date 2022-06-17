@@ -11,7 +11,7 @@ const Home = () => {
     navigate('/email')
   }
   return (
-    <div className="container bg-image grid md:grid-cols-3 grid-cols-1  mt-12 gap-4">
+    <div className="container grid md:grid-cols-3 grid-cols-1  mt-12 gap-4">
       <div className="card col-span-1 rounded-tl-xl rounded-b-none rounded-tr-none">
         <figure>
           {" "}
